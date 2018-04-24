@@ -54,14 +54,46 @@
 		214EE6ED208DF4D70047B7C2 /* SQLiteTesting */ = {
 			isa = PBXGroup;
 			children = (
-				214EE6EE208DF4D70047B7C2 /* AppDelegate.swift */,
-				214EE6F0208DF4D70047B7C2 /* ViewController.swift */,
-				214EE6F2208DF4D70047B7C2 /* Main.storyboard */,
-				214EE6F5208DF4E20047B7C2 /* Assets.xcassets */,
-				214EE6F7208DF4E20047B7C2 /* LaunchScreen.storyboard */,
-				214EE6FA208DF4E20047B7C2 /* Info.plist */,
+				214EE700208DF5290047B7C2 /* Model */,
+				214EE701208DF5300047B7C2 /* View */,
+				214EE702208DF5360047B7C2 /* Controller */,
+				214EE703208DF5780047B7C2 /* Supporting Files */,
 			);
 			path = SQLiteTesting;
+			sourceTree = "<group>";
+		};
+		214EE700208DF5290047B7C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		214EE701208DF5300047B7C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				214EE6F7208DF4E20047B7C2 /* LaunchScreen.storyboard */,
+				214EE6F2208DF4D70047B7C2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		214EE702208DF5360047B7C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				214EE6EE208DF4D70047B7C2 /* AppDelegate.swift */,
+				214EE6F0208DF4D70047B7C2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		214EE703208DF5780047B7C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				214EE6F5208DF4E20047B7C2 /* Assets.xcassets */,
+				214EE6FA208DF4E20047B7C2 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,15 +314,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3D829724MC;
-				INFOPLIST_FILE = SQLiteTesting/Info.plist;
+				INFOPLIST_FILE = "SQLiteTesting/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = frostd.SQLiteTesting;
+				PRODUCT_BUNDLE_IDENTIFIER = frostd.AnyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,15 +332,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3D829724MC;
-				INFOPLIST_FILE = SQLiteTesting/Info.plist;
+				INFOPLIST_FILE = "SQLiteTesting/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = frostd.SQLiteTesting;
+				PRODUCT_BUNDLE_IDENTIFIER = frostd.AnyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
